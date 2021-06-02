@@ -1,54 +1,56 @@
-body{
-	margin: 0px 350px;
-	width: 1280px;
-	font-family:"Yu Gothic Medium";
+@media screen and (min-width: 481px){ 
+	body{
+		margin: 0px 350px;
+		width: 1280px;
+		background-color:#fff;
+		font-family:"Yu Gothic Medium";
+		}
+	header{
+		margin:30px;
+		height:80px;
 	}
-header{
-	background-color:#fff;
-	color:#000;
-	margin:30px;
-	height:80px;
-}
-header ul{
-  list-style: none;
-  position: relative;
-  top: 10px;
-  left: 100px;
-  font-size:30px;
-}
-header li{
-	display: inline-block;
-	margin-left: 20px;
+	header ul{
+	  list-style: none;
+	  position: relative;
+	  top: 10px;
+	  left: 100px;
+	  font-size:30px;
+	}
+	header li{
+		display: inline-block;
+		margin-left: 20px;
 
-}
-header .container{
-	display: flex;
-}
-header h1{
-	font-size: 50px;
-}
-.main{
-	height: 600px;
-	padding: 0px 100px;
-}
+	}
+	header .container{
+		display: flex;
+	}
+	header h1{
+		font-size: 50px;
+		color:#000;
+	}
+	.main{
+		height: 600px;
+		padding: 0px 100px;
+	}
 
-.contents img{
-	margin-left:5px;
-	margin-top: 5px;
-	vertical-align: bottom
-}
-.contents img:hover{
-	opacity: .5;
+	.contents img{
+		margin-left:5px;
+		margin-top: 5px;
+		vertical-align: bottom
+	}
+	.contents img:hover{
+		opacity: .5;
 
+	}
+	footer{
+		color:#000;
+		font-size:30px;
+		margin:30px;
+	}
+	#twiiterURL{
+		text-decoration: none;
+	}
 }
-footer{
-	background-color:#fff;
-	color:#000;
-	font-size:30px;
-	margin:30px;
-}
-#twiiterURL{
-	color: #000;
-	text-decoration: none;
-	margin-top: 85px;
-}
+@media screen and (max-width: 480px)　{
+
+ }
