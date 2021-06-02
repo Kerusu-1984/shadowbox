@@ -51,6 +51,33 @@
 		text-decoration: none;
 	}
 }
-@media screen and (max-width: 480px)　{
+@media screen and (max-width: 480px){
+	header{
+		margin:30px;
+		height:40px;
+		color: #000;
+	}
+	header .container{
+		display: flex;
+	}
+	
+	header ul{
+	  list-style: none;
+	  position: relative;
+	  top: 10px;
+	  left: 10px;
+	}
+	header li{
+		display: inline-block;
 
+	}
+	.main .container{
+		display: flex;
+  		flex-direction: column;
+  		align-items: center;
+	}
+	.contents img{
+		margin-left:5px;
+		margin-top: 5px;
+	}
  }
