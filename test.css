@@ -1,0 +1,39 @@
+body{
+	margin: 0px;
+	width: 1160px;
+	font-family:"Hiragino Sans";
+	}
+header{
+	background-color:#000;
+	color:#fff;
+	font-size:30px;
+	margin:0px;
+	height:150px;
+}
+header .container{
+	display: flex;
+}
+header h1{
+	margin:0px;
+	padding-top:30px;
+}
+
+.contents img{
+	margin-left:20px;
+	vertical-align: bottom
+}
+.contents img:hover{
+	opacity: .5;
+
+}
+footer{
+	background-color:#000;
+	color:#fff;
+	font-size:30px;
+	margin:0px;
+}
+#twiiterURL{
+	color: #fff;
+	text-decoration: none;
+	margin-top: 85px;
+}
