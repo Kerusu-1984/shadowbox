@@ -10,6 +10,12 @@ header{
 	margin:0px;
 	height:150px;
 }
+header ul{
+  list-style: none;
+}
+header li{
+	display: inline-block;
+}
 header .container{
 	display: flex;
 }
